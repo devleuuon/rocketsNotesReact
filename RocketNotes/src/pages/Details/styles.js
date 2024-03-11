@@ -13,7 +13,7 @@ export const Container = styled.div`
 `
 
 export const Links = styled.ul`
-     list-style: none;
+    list-style: none;
 
         > li {
             margin-top: 1.2rem;
@@ -22,4 +22,9 @@ export const Links = styled.ul`
         a {
             color: ${({ theme }) => theme.COLORS.WHITE};
         }
+`
+
+export const Tag = styled.button`
+    border: none;
+    background-color: orange;
 `
