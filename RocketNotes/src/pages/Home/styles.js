@@ -36,11 +36,11 @@ export const Menu = styled.ul`
     background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 `;
 export const Search = styled.div`
-    grid-area: search
+    grid-area: search;
 `;
 export const Content = styled.div`
-    grid-area: conten
+    grid-area: content;
 `;
 export const NewNote = styled.button`
-    grid-area: newnote
+    grid-area: newnote;
 `;

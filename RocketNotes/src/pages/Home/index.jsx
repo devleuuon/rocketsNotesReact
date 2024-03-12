@@ -14,7 +14,7 @@ export function Home() {
         <Header />
 
         <Menu>
-            <li><ButtonText title="Todos" /></li>
+            <li><ButtonText title="Todos" $isactive /></li>
             <li><ButtonText title="Frontend" /></li>
             <li><ButtonText title="Node" /></li>
             <li><ButtonText title="React" /></li>
