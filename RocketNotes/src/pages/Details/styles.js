@@ -23,8 +23,3 @@ export const Links = styled.ul`
             color: ${({ theme }) => theme.COLORS.WHITE};
         }
 `
-
-export const Tag = styled.button`
-    border: none;
-    background-color: orange;
-`
