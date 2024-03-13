@@ -32,11 +32,13 @@ export const Brand = styled.div`
 `;
 export const Menu = styled.ul`
     grid-area: menu;
+    text-align: center;
 
     background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 `;
 export const Search = styled.div`
     grid-area: search;
+    padding: 3.4rem 6.4rem 0;
 `;
 export const Content = styled.div`
     grid-area: content;

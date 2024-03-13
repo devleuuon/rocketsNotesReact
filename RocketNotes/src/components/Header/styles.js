@@ -4,7 +4,7 @@ export const Container = styled.header`
     grid-area: header;
 
     height: 10.5rem;
-    width: 100vw;
+    width: 100%;
 
     border-bottom: .1rem solid ${({ theme}) => theme.COLORS.BACKGROUND_700};
 
