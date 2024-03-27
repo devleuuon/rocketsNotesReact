@@ -14,7 +14,7 @@ export const Form = styled.form`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
+    text-align: center;
 
     > h1 {
         font-size: 4.8rem;
