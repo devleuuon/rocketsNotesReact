@@ -13,13 +13,16 @@ export default createGlobalStyle`
     }
 
     body {
-        background: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+        background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
         color: ${({ theme }) => theme.COLORS.WHITE};
-        font-family: "Roboto Slab", serif;
         --webkit-font-smoothing: antialiased;
+    }
+
+    body, input, button, textarea {
+        font-family: 'Roboto Slab', serif;
         font-size: 1.6rem;
         outline: none;
-    }
+        }
 
     a {
         text-decoration: none;
